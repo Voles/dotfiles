@@ -1,10 +1,11 @@
 # ansible
-cd ~/Documents/Projects/eclipse-workspace/social-express-ansible/ansible
+cd $HOME/Documents/Projects/eclipse-workspace/social-express-ansible/ansible
 source ./hacking/env-setup >& /dev/null
 cd ~
-export ANSIBLE_HOSTS=/Users/nielsdequeker/Documents/Projects/ansible-projects/social-express-ansible/hosts
+export ANSIBLE_HOSTS=$HOME/Documents/Projects/ansible-projects/social-express-ansible/hosts
 
 # aws ec2 tools
+# TODO: fetch the api tools from a repository
 export EC2_HOME=~/ec2-api-tools-1.6.7.3
 export PATH=$PATH:$EC2_HOME/bin
 export AWS_ACCESS_KEY=AKIAIIWWQQSEYCGOCVXA

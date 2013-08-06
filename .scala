@@ -1,1 +1,1 @@
-export PATH=/Users/nielsdequeker/sbt/bin:$PATH
+export PATH=$HOME/sbt/bin:$PATH
