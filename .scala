@@ -1,0 +1,1 @@
+export PATH=/Users/nielsdequeker/sbt/bin:$PATH

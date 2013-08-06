@@ -1,0 +1,12 @@
+# ansible
+cd ~/Documents/Projects/eclipse-workspace/social-express-ansible/ansible
+source ./hacking/env-setup >& /dev/null
+cd ~
+export ANSIBLE_HOSTS=/Users/nielsdequeker/Documents/Projects/ansible-projects/social-express-ansible/hosts
+
+# aws ec2 tools
+export EC2_HOME=~/ec2-api-tools-1.6.7.3
+export PATH=$PATH:$EC2_HOME/bin
+export AWS_ACCESS_KEY=AKIAIIWWQQSEYCGOCVXA
+export AWS_SECRET_KEY=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
+export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Home/
