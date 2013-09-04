@@ -10,6 +10,7 @@ function doIt() {
 		--exclude "README.md" --exclude "LICENSE" -av --no-perms . ~
 	source ~/.bash_profile
 }
+
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
 	doIt
 else
@@ -20,3 +21,4 @@ else
 	fi
 fi
 unset doIt
+
