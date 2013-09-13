@@ -113,7 +113,7 @@ endif
 " [README](#/home/vim/README.markdown) inside the `packages` directory for
 " information on my plugins.
 runtime pathogen/autoload/pathogen.vim
-call pathogen#infect('packages/{}')
+call pathogen#infect()
 
 " I like to have a darker color scheme when running GVim. Of the built-in
 " schemes, I tend to like `vividchalk`, which is one of the plugins loaded by
