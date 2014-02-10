@@ -107,20 +107,6 @@ endif
 " package management system. It allows you to keep all of your plugins in
 " their own directories, so adding and deleting is a breeze. 
 
-" To load it, I first add Pathogen's autoload to the runtime and then I call
-" `Pathogen#infect` to load all my plugins, passing it the folder inside
-" `$HOME/.vim/` where they are stored. See the
-" [README](#/home/vim/README.markdown) inside the `packages` directory for
-" information on my plugins.
-runtime pathogen/autoload/pathogen.vim
-call pathogen#infect()
-
-" I like to have a darker color scheme when running GVim. Of the built-in
-" schemes, I tend to like `vividchalk`, which is one of the plugins loaded by
-" Pathogen. I also like `moria` and `Tomorrow-Night-Bright`, which are
-" included as well.
-colorscheme vividchalk
-
 " One of the plugins I use is [NERDTree](https://github.com/scrooloose/nerdtree), 
 " a file tree explorer. If I launch Vim without specifying any file, I want it
 " to open NERDTree.
