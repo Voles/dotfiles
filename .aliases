@@ -13,6 +13,11 @@ alias o="open"
 alias oo="open ."
 alias r="clear"
 
+# Package managers
+alias mci="mvn clean install"
+alias bi="bower install"
+alias bcc="bower cache clean"
+
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
 	colorflag="--color"
