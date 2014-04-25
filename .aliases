@@ -12,6 +12,7 @@ alias m="cd /Applications/MAMP/htdocs/"
 alias o="open"
 alias oo="open ."
 alias c="clear"
+alias g="git"
 
 # Package managers
 alias mci="mvn clean install"
