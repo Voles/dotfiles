@@ -13,6 +13,7 @@ alias o="open"
 alias oo="open ."
 alias c="clear"
 alias g="git"
+alias gs="git status"
 
 # Package managers
 alias mci="mvn clean install"
